@@ -1,0 +1,292 @@
+body {
+   direction: rtl;
+}
+
+
+.cons_light_top_bar .top-bar-menu.right ul {
+    float: left;
+}
+
+.top-bar-menu ul li a::after {
+    margin-right: 6px;
+    margin-left: 0;
+}
+
+.top-bar-menu ul > * {
+    float: right;
+}
+
+.nav-classic .header-middle-inner > *:not(:last-child) {
+    padding-right: 0;
+    padding-left: 15px;
+}
+
+.nav-classic .header-middle-inner .contact-info {
+    text-align: left;
+}
+
+.nav-classic .header-middle-inner .contact-info .quickcontact .get-tuch ul li {
+    text-align: right;
+}
+
+.nav-classic .header-middle-inner .contact-info .quickcontact .get-tuch {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.nav-classic .header-middle-inner .contact-info .quickcontact .get-tuch i {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+.nav-classic .extralmenu-wrap {
+    text-align: left;
+    right: auto;
+    left: 20px;
+}
+
+
+/**
+ * Main Menu
+*/
+
+.box-header-nav .main-menu {
+    text-align: right;
+}
+
+.box-header-nav .main-menu .page_item.page_item_has_children>a::after, 
+.box-header-nav .main-menu>.menu-item.menu-item-has-children>a::after {
+    margin-right: 6px;
+    margin-left: 0;
+}
+
+.box-header-nav .main-menu .children>.page_item.page_item_has_children>a::after, 
+.box-header-nav .main-menu .sub-menu>.menu-item.menu-item-has-children>a::after {
+    float: left;
+    content: '\f104';
+}
+
+.box-header-nav .main-menu .children .children, 
+.box-header-nav .main-menu .sub-menu .sub-menu {
+    right: 100%;
+    left: auto;
+}
+
+.box-header-nav ul li:first-child ul.sub-menu{
+    right: 0;
+    left: auto;
+}
+
+.headertwo .nav-classic-wrap .box-header-nav .main-menu .page_item, 
+.headertwo .nav-classic-wrap .box-header-nav .main-menu .page_item a, 
+.headertwo .nav-classic-wrap .box-header-nav .main-menu .menu-item, 
+.headertwo .nav-classic-wrap .box-header-nav .main-menu .menu-item a {
+    text-align: right;
+}
+
+
+/**
+ * Slider
+*/
+.banner-slider .slider-item .slider-content .btn-area .btn-border {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.btn i {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.fa-arrow-right:before {
+    content: "\f060";
+}
+
+.banner-slider .owl-dots {
+    left: 25px;
+    right: auto;
+}
+
+
+/**
+ * 
+*/
+
+.about_us_front .achivement-items ul li {
+    border-left: 1px solid #f4f4f4;
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: 30px;
+    padding-left: 30px;
+    border-right: 0;
+}
+.about_us_front .achivement-items ul li:last-child {
+    border-left: none;
+}
+
+.calltoaction_promo_wrapper .calltoaction_button_wrap .btn-border {
+    margin-right: 30px;
+    margin-left: 0;
+}
+
+.articlesListing .article .info div {
+    margin-left: 25px;
+    margin-right: 0;
+}
+
+.articlesListing .article .info div:after {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.cons_light_team_layout_two ul.sp_socialicon li {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.sub_footer ul.sp_socialicon li {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.sub_footer ul.sp_socialicon {
+    text-align: left;
+}
+
+.cons_light_copyright {
+    text-align: right;
+}
+
+/**
+ * Inner Page
+*/
+.widget_product_search .search-field, 
+.widget_search .search-field {
+    width: 100%;
+}
+
+.widget_product_search a.button,
+.widget_product_search button, 
+.widget_product_search input[type="submit"], 
+.widget_search .search-submit {
+    left: 0;
+    right: auto;
+}
+
+.prevNextArticle .next {
+    text-align: left;
+}
+
+.prevNextArticle .prev{
+    text-align: right;
+}
+
+.comment-list .comment-body {
+    text-align: right;
+}
+
+.comments-area ol.children {
+    margin: 0 15px 0 0;
+}
+
+@media (max-width: 992px){
+
+    span.sub-toggle {
+        left: 0;
+        right: auto;
+    }
+
+    .box-header-nav .main-menu .children>.page_item.page_item_has_children>a::after, 
+    .box-header-nav .main-menu .sub-menu>.menu-item.menu-item-has-children>a::after{
+        display: none;
+    }
+
+    .box-header-nav .main-menu .children .children, 
+    .box-header-nav .main-menu .sub-menu .sub-menu {
+        right: 0;
+        left: auto;
+    }
+}
+
+@media (max-width: 768px){
+    .cons_light_top_bar .top-bar-menu.right ul {
+        float: none;
+    }
+
+    .nav-classic .header-middle-inner .contact-info {
+        text-align: center;
+    }
+}
+
+/**
+ * Widget Area
+*/
+.widget_recent_entries a {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.widget_recent_entries a::before {
+    content: "\f100";
+}
+
+.widget_archive a::before, .widget_categories a::before, .widget_recent_entries a::before, .widget_meta a::before, .widget_recent_comments li::before, .widget_rss li:before, .widget_pages li:before, .widget_nav_menu li:before, .widget_product_categories a:before {
+    right: 0;
+    left: auto;
+}
+
+.widget_archive ul li a, .widget_categories ul li a, .widget_product_categories ul li a {
+    float: right;
+}
+
+.widget_archive a, .widget_categories a, .widget_recent_entries a, .widget_meta a, .widget_recent_comments li, .widget_rss li, .widget_pages li, .widget_nav_menu li, .widget_product_categories a {
+    padding-right: 22px;
+    padding-left: 0;
+    text-align: right;
+}
+
+.widget_meta a::before, .widget_nav_menu li:before {
+    content: "\f137";
+}
+
+
+.site-footer .widget .widget-title {
+    text-align: right;
+}
+
+.site-footer .widget h2.widget-title:before {
+    right: 0;
+    left: 0;
+}
+
+.cross-sells h2, .cart_totals h2, .up-sells h2, .related h2, .woocommerce-billing-fields h3, .woocommerce-shipping-fields h3, .woocommerce-additional-fields h3, #order_review_heading, .woocommerce-order-details h2, .woocommerce-column--billing-address h2, .woocommerce-column--shipping-address h2, .woocommerce-Address-title h3, .woocommerce-MyAccount-content h3, .wishlist-title h2, .woocommerce-account .woocommerce h2, .widget-area .widget .widget-title, .comments-area .comments-title {
+    text-align: right;
+}
+
+.cross-sells h2:before, .cart_totals h2:before, .up-sells h2:before, .related h2:before, .woocommerce-billing-fields h3:before, .woocommerce-shipping-fields h3:before, .woocommerce-additional-fields h3:before, #order_review_heading:before, .woocommerce-order-details h2:before, .woocommerce-column--billing-address h2:before, .woocommerce-column--shipping-address h2:before, .woocommerce-Address-title h3:before, .woocommerce-MyAccount-content h3:before, .wishlist-title h2:before, .woocommerce-account .woocommerce h2:before, .widget-area .widget .widget-title:before, .comments-area .comments-title:before {
+    right: 0;
+    left: auto;
+}
+
+.widget-area ul li {
+    text-align: right;
+}
+
+.comment-metadata {
+    padding-right: 50px;
+    padding-left: 0;
+    text-align: right;
+}
+
+.comment-author img {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.comment-author {
+    text-align: right;
+}
+
+.comment-content {
+    text-align: right;
+}
