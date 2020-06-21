@@ -9,7 +9,7 @@ Password: Arise@@12
 <<<<<<< HEAD
 Demo Link: ace926e42420.ngrok.io
 =======
-Demo Link: arise.socchat.net
+Demo Link: http://arise.socchat.net
 
 Local Link: ace926e42420.ngrok.io
 
