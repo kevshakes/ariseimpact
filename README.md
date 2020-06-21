@@ -6,8 +6,6 @@ Default Admin Credentials
 Username: admin
 Password: Arise@@12
 
-<<<<<<< HEAD
-Demo Link: ace926e42420.ngrok.io
 =======
 Demo Link: http://arise.socchat.net
 
