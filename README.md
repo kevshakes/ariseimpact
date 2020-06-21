@@ -1,17 +1,19 @@
 # ariseimpact
  ARISE Impact Appoinment Site
  
- A responsive site with sign in/ sign up page and appointment booking. 
+ - A responsive site with sign in/ sign up page and appointment booking. 
  
- Agents are defined by the administrator who can take care of appointments. 
+ - Agents are defined by the administrator who can take care of appointments. 
  
- Scheduling and restrictions features.
+ - Scheduling and restrictions features.
  
- Customers can create an account to manage their appointments. 
+ - Customers can create an account to manage their appointments. 
+
+ - Email notifications to customers and agents when a booking is made. 
  
- Email notifications to customers and agents when a booking is made. 
+ Wordpress Theme Template used: Construction Light Version: 1.0.6 By Sparkle Themes	
  
- Wordpress Plugin used: LatePoint
+ Wordpress Booking Plugin used: Appointment Scheduling Software for WordPress Version 3.0.5 By LatePoint
 
 Default Admin Credentials
 
