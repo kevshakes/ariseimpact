@@ -2,7 +2,7 @@
   "name": "latepoint",
   "version": "1.0.0",
   "dependencies": {
-    "chart.js": "^2.7.3",
+    "chart.js": "^2.9.4",
     "daterangepicker": "^3.0.3",
     "dragula": "^3.7.2",
     "inputmask": "^4.0.3",
